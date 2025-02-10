@@ -10,8 +10,8 @@ body {
 .holder {
     display: flex;
     flex-wrap: wrap; /* Items will wrap to the next row if needed */
-    /* justify-content: space-between; /* First and last items touch edges */ */
-    gap: 10px; /* Space between items */
+    justify-content: space-between; /* First and last items touch edges */
+    gap: 0px; /* Space between items */
     max-width: 800px; /* Prevent items from stretching too much */
 }
 
